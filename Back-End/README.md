@@ -46,11 +46,6 @@ Develop the backend for the E-commerce application to handle product creation, p
 
    - Create an API endpoint for deleting products.
    - Ensure that only the meme creator can delete their memes.
-   
-5. **Admin Page**:
-
-   - Authenticate admin logging in.
-   - Admin has the ability to approve created products by user
 
 ## Submission
 
