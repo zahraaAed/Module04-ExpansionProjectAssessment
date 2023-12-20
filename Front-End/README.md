@@ -8,7 +8,7 @@
 
 ## Instructions
 
-Build a web application using React and CSS (you can use tools for styling). This application should allow admins to create, modify, delete product, users can display all the created products. The interface should be user-friendly and aesthetically appealing.
+Build a web application using React, semantic HTML, and module CSS/MUI (you can use tools for styling). This application should allow admins to create, modify, delete product, users can display all the created products. The interface should be user-friendly and aesthetically appealing.
 
 ## Requirements
 
@@ -32,7 +32,9 @@ Build a web application using React and CSS (you can use tools for styling). Thi
 4. **Responsiveness**:
 
    - Ensure the application works on mobile devices.
-
+  
+**Bonus**:
+- Add token inside cookie on Suplier login
 
 ## Submission
 
