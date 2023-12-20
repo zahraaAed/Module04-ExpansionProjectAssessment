@@ -34,7 +34,7 @@ Build a web application using React, semantic HTML, and module CSS/MUI (you can 
    - Ensure the application works on mobile devices.
   
 **Bonus**:
-- Add token inside cookie on Suplier login
+- Add token inside cookie on Supplier login
 
 ## Submission
 
