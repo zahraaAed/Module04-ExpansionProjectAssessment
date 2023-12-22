@@ -8,7 +8,7 @@
 
 ## Instructions
 
-Build a web application using React, semantic HTML, and module CSS/MUI (you can use tools for styling). This application should allow admins to create, modify, delete product, users can display all the created products. The interface should be user-friendly and aesthetically appealing.
+Build a web application using React, semantic HTML, and module CSS/MUI (you can use tools for styling). This application should allow suppliers to create, modify, delete product, users can display all the created products. The interface should be user-friendly and aesthetically appealing.
 
 ## Requirements
 
