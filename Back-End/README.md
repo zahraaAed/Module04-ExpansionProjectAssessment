@@ -25,7 +25,7 @@ Develop the backend for the E-commerce application to handle product creation, p
 
    - Create APIs for user registration and login.
    - Use bcrypt for password hashing.
-   - Differentiate between regular users(view only) and registered meme creators.
+   - Differentiate between regular users(view only) and registered product creators.
 
 2. **Product Creation API**:
 
@@ -40,12 +40,12 @@ Develop the backend for the E-commerce application to handle product creation, p
 4. **Product Update API**:
 
    - Create an API endpoint for updating products.
-   - Ensure that only the meme creator can update their memes.
+   - Ensure that only the product creator can update their products.
 
 5. **Product Deletion API**:
 
    - Create an API endpoint for deleting products.
-   - Ensure that only the meme creator can delete their memes.
+   - Ensure that only the product creator can delete their products.
 
 ## Submission
 
