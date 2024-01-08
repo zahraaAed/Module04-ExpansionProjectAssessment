@@ -46,6 +46,7 @@ const HomePage = () => {
               <p>{Product.description}</p>
               <p>{Product.category}</p>
               <p>{Product.price}</p>
+              <p>Created by: {Product?.user.username}</p>
               <Link to={`/productDetail/${Product.id}`}>See more details</Link>
             </div>
             

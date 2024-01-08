@@ -10,7 +10,7 @@ const Add = () => {
   const [category, setCategory] = useState("");
   const [description, setDescription] = useState("");
   const [products, setProducts] = useState([]);
-
+const[userId,setUserId]=useState([])
 
   const fetchData = async (e) => {
     e.preventDefault();
@@ -21,6 +21,7 @@ const Add = () => {
     formData.append("category", category);
     formData.append("description", description);
     formData.append("price", price);
+    formData.append("userId",userId)
     console.log("Form Data:", formData);
    console.log("gooo")
     try {
@@ -112,6 +113,13 @@ const Add = () => {
                 name="price"
                 onChange={(e) => setPrice(e.target.value)}
               ></input>
+               <label for="userId">userId</label>
+                 <input
+                type="text"
+                id="userId"
+                name="userId"
+                onChange={(e) => setUserId(e.target.value)}
+              ></input>
             
               <button type="submit">Submit</button>
             </form>
@@ -126,6 +134,7 @@ const Add = () => {
                 <p>{product?.category}</p>
                 <p>{product?.description}</p>
                 <p>price:{product?.price}</p>
+              
 <div className="buttons">
                <button className="link-button"><Link to={`/edit/${product.id}`}>Edit</Link></button>
 
