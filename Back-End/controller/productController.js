@@ -69,10 +69,10 @@ export const deleteProduct = async (req,res) =>{
 export const addProduct = async (req, res) => {
   
    
-    const { title,description,price,category} = req.body; 
+    const { title,description,price,category,userId} = req.body; 
     try {
     
-        const createdProduct= await Product.create({ title,description,price,category} );
+        const createdProduct= await Product.create({ title,description,price,category,userId} );
         console.log(createdProduct);
         res.status(200).json({ message: 'product created successfully' });
     } catch (error) {
