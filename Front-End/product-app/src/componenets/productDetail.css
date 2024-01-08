@@ -1,0 +1,37 @@
+div {
+    text-align: center;
+  }
+  
+
+  h1 {
+    color:#d31399;;
+  }
+  
+  /* Meme Detail Styles */
+  .product-detail {
+
+  
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0px;
+  }
+  
+ 
+  .body-product {
+    display:flex;
+    flex-direction: column; 
+  }
+
+  
+  h2 {
+    color:#d31399;
+  }
+  
+  p {
+    color: #777;
+
+  }
+  

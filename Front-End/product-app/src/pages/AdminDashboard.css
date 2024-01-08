@@ -1,0 +1,44 @@
+.form {
+   max-width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   display: inline-block;
+ 
+
+  }
+  body {
+    text-align: center;
+}
+button {
+    background-color:rgb(151, 12, 105);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+   
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+   
+  }
+  button:hover {
+    background-color:rgb(224, 163, 204);
+
+  }
+.product-edit{
+    max-width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+    padding: 100px;
+    margin-left: 400px;
+ justify-content: center;
+ align-items: center;
+
+}

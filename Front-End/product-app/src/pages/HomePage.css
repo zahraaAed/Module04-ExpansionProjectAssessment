@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(243, 245, 237);
+    margin: 50px;
+   
+}
+
+
+.product-container{
+    display: flex;
+    flex-direction: row;
+    gap: 120px;
+justify-content: center;
+padding-top: 100px;
+}
+.body-product{
+   max-width: 700px;
+   display: flex;
+   flex-direction: row;
+   gap: 120px;
+justify-content: center;
+
+}
+h1{
+ text-align: center;
+ font-size: 70px;
+ color: #d31399;
+}
+h3{
+    text-align: center;
+    font-size: 40px;
+    color: #ec76c9;
+   }
